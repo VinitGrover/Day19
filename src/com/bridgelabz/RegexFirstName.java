@@ -3,7 +3,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 import java.util.regex.*;
 
-public class Regex {
+public class RegexFirstName {
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("^[A-Z]{1}[A-Za-z]{2,}$");
 
