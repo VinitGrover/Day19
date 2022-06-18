@@ -15,6 +15,8 @@ public class RegexGmail {
 
         if (matcher.matches() == false) {
             System.out.println("Entered Gmail does not match the convention");
+        } else {
+            System.out.println("Valid Gmail");
         }
     }
 }
