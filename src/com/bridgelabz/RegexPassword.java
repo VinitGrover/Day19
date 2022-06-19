@@ -3,7 +3,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 import java.util.regex.*;
 
-public class RegexPassword {
+public class RegexPassword { 
 
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("^[0-9a-zA-Z]{8,}$");
