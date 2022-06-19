@@ -1,14 +1,13 @@
 package com.bridgelabz;
 
 import java.util.Scanner;
-import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class RegexPassword {
-
+public class RegexPasswordUpperCase {
     public static void main(String[] args) {
-        Pattern pattern = Pattern.compile("^[0-9a-zA-Z]{8,}$");
-
-        System.out.println("Enter minimum 8 digit password ");
+        Pattern pattern = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z]).{8,}$");
+        System.out.println("Enter minimum 8 digit Password containing at least one uppercase ");
         Scanner userInput = new Scanner(System.in);
         String password = userInput.nextLine();
 
