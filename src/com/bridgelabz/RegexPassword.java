@@ -8,7 +8,7 @@ public class RegexPassword {
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("^[0-9a-zA-Z]{8,}$");
 
-        System.out.println("Enter country code and phone number ");
+        System.out.println("Enter at least 8 digit password ");
         Scanner userInput = new Scanner(System.in);
         String password = userInput.nextLine();
 
